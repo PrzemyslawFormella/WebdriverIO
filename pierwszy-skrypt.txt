@@ -1,0 +1,33 @@
+1. Za pomoc¹ konsoli tworzê katalog, w którym bêdzie zawiera³ siê mój test automatyczny.
+
+$ mkdir test
+
+Przechodzê do utworzonego katalogu.
+
+$ cd test
+
+2. Instalujê pakiet npm za pomoc¹ poleceñ:
+
+$ npm init -y
+
+$ npm install --save-dev webdriverio
+
+$ npm install -g selenium-standalone
+
+$ selenium-standalone install
+
+$ selenium-stanalone start
+
+Framework do testowania powinien byæ ju¿ zainstalowany i uruchomiony. 
+
+3. Nastêpnie uruchamiam nowe okno konsoli. 
+
+Tworzê nowy katalog
+
+mkdir Skrypt
+
+Tworzê nowy plik JavaScript
+
+echo Skrypt/mojPierwszyTest.js
+
+
